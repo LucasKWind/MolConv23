@@ -29,7 +29,10 @@ h1 {
 }
 #MolSubstance
 {
-    height:20px;
+  position:absolute;
+    bottom:0px;
+  left:250px;
+  height:20px;
     font-size:14pt;
 }
 
