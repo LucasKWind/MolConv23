@@ -7,29 +7,26 @@ h1 {
 #MolSubstance
 {
   position:absolute;
-    bottom:0px;
-  margin-left:50px;
- bottom: 290px;
+  left:50px;
+  bottom: 290px;
   height:20px;
-    font-size:14pt;
+  font-size:14pt;
 }
 #VolSubstance
 {
   position:absolute;
-    bottom:0px;
-bottom: 290px;
-  margin-left:250px;
+  bottom: 290px;
+  left:250px;
   height:20px;
-    font-size:14pt;
+  font-size:14pt;
 }
 #MassSubstance
 {
   position:absolute;
-    bottom:20px;
   bottom: 290px;
-  margin-left:500px;
+  left:500px;
   height:20px;
-    font-size:14pt;
+  font-size:14pt;
 }
 #center
 {
