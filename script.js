@@ -23,13 +23,13 @@ inputvalue = Number(MolSubstance.value);
 
 VolVal = inputvalue*22.4;
 
-VolSubstance.value = VolVal;
+VolSubstance.value = VolVal.toFixed(2);
 MassVal = inputvalue*55.85;
 
 MassSubstance.value = MassVal;
 ParVal = inputvalue*6.02e23;
 
-PartSubstance.value = ParVal;
+PartSubstance.value = ParVal.toFixed(2);
  alert('Converted values!');
 },1000);
 });
@@ -41,13 +41,13 @@ inputvalue = Number(VolSubstance.value);
 
 MolVal = inputvalue/22.4;
 
-MolSubstance.value = MolVal;
+MolSubstance.value = MolVal.toFixed(2);
 MassVal = MolVal*55.85;
 
-MassSubstance.value = MassVal;
+MassSubstance.value = MassVal.toFixed(2);
 ParVal = MolVal*6.02e23;
 
-PartSubstance.value = ParVal;
+PartSubstance.value = ParVal.toFixed(2);
  alert('Converted values!');
 },1000);
 });
@@ -60,13 +60,13 @@ inputvalue = Number(MassSubstance.value);
 
 MolVal = inputvalue/55.85;
 
-MolSubstance.value = MolVal;
+MolSubstance.value = MolVal.toFixed(2);
 VolVal = MolVal*22.4;
 
-VolSubstance.value = VolVal;
+VolSubstance.value = VolVal.toFixed(2);
 ParVal = MolVal*6.02e23;
 
-PartSubstance.value = ParVal;
+PartSubstance.value = ParVal.toFixed(2);
  alert('Converted values!');
 },1000);
 });
@@ -78,13 +78,13 @@ inputvalue = Number(PartSubstance.value);
 
 MolVal = inputvalue/6.02e23;
 
-MolSubstance.value = MolVal;
+MolSubstance.value = MolVal.toFixed(2);
 VolVal = MolVal*22.4;
 
-VolSubstance.value = VolVal;
+VolSubstance.value = VolVal.toFixed(2);
 MassVal = MolVal*55.85;
 
-MassSubstance.value = MassVal;
+MassSubstance.value = MassVal.toFixed(2);
  alert('Converted values!');
 },1000);
 });
