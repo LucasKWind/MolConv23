@@ -30,8 +30,7 @@ MassSubstance.value = MassVal;
 ParVal = inputvalue*6.02e23;
 
 PartSubstance.value = ParVal.toFixed(2);
- alert('Converted values!');
-},1000);
+},100);
 });
 
 VolSubstance.addEventListener("keyup",function(r){
@@ -48,8 +47,7 @@ MassSubstance.value = MassVal.toFixed(2);
 ParVal = MolVal*6.02e23;
 
 PartSubstance.value = ParVal.toFixed(2);
- alert('Converted values!');
-},1000);
+},100);
 });
 
 
@@ -67,8 +65,7 @@ VolSubstance.value = VolVal.toFixed(2);
 ParVal = MolVal*6.02e23;
 
 PartSubstance.value = ParVal.toFixed(2);
- alert('Converted values!');
-},1000);
+},100);
 });
 
 PartSubstance.addEventListener("keyup",function(y){
@@ -85,6 +82,5 @@ VolSubstance.value = VolVal.toFixed(2);
 MassVal = MolVal*55.85;
 
 MassSubstance.value = MassVal.toFixed(2);
- alert('Converted values!');
-},1000);
+},100);
 });
