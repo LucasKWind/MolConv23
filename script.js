@@ -13,7 +13,7 @@ let timer;
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
 timer = setTimeout(() => {
-inputvalue = +MolSubstance.innerHTML;
+inputvalue = Number(MolSubstance.innerHTML);
 VolVal = inputvalue*22.4;
 VolSubstance.innerHTML = VolVal;
 MassVal = inputvalue*55.85;
