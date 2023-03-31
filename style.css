@@ -28,6 +28,14 @@ h1 {
   height:20px;
   font-size:14pt;
 }
+#PartSubstance
+{
+  position:absolute;
+  bottom: 220px;
+  left:60px;
+  height:20px;
+  font-size:14pt;
+}
 #center
 {
  text-align: center;   
