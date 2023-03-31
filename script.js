@@ -6,6 +6,7 @@ let inputvalue = 0;
 let VolVal = 0;
 let MassVal = 0;
 let MolVal = 0;
+let ParVal = 0;
 let timer;
 
 MolSubstance.addEventListener("keyup",function(e){
