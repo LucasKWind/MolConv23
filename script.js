@@ -12,6 +12,9 @@ let MassVal = 0;
 let MolVal = 0;
 let ParVal = 0;
 let timer;
+let timer1;
+let timer2;
+let timer3;
 
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
@@ -31,9 +34,9 @@ PartSubstance.value = ParVal;
 },1000);
 });
 
-VolSubstance.addEventListener("keyup",function(e){
-clearTimeout(timer);
-timer = setTimeout(() => {
+VolSubstance.addEventListener("keyup",function(r){
+clearTimeout(timer1);
+timer1 = setTimeout(() => {
 inputvalue = Number(VolSubstance.value);
 
 MolVal = inputvalue/22.4;
@@ -50,9 +53,9 @@ PartSubstance.value = ParVal;
 });
 
 
-MassSubstance.addEventListener("keyup",function(e){
-clearTimeout(timer);
-timer = setTimeout(() => {
+MassSubstance.addEventListener("keyup",function(t){
+clearTimeout(timer2);
+timer2 = setTimeout(() => {
 inputvalue = Number(MassSubstance.value);
 
 MolVal = inputvalue/55.85;
@@ -68,9 +71,9 @@ PartSubstance.value = ParVal;
 },1000);
 });
 
-PartSubstance.addEventListener("keyup",function(e){
-clearTimeout(timer);
-timer = setTimeout(() => {
+PartSubstance.addEventListener("keyup",function(y){
+clearTimeout(timer3);
+timer3 = setTimeout(() => {
 inputvalue = Number(PartSubstance.value);
 
 MolVal = inputvalue/6.02e23;
