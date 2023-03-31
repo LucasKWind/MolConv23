@@ -4,7 +4,7 @@ html {
   font-size: 10px;
   
 background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d5d0e5 74%);
+background-image: linear-gradient(315deg, #ffffff 0%, #d5d0e5 33);
 
 }
 
@@ -36,8 +36,4 @@ h1 {
 #center
 {
  text-align: center;   
-}
-#topc
-{
- float: up;
 }
