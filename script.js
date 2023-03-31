@@ -1,3 +1,11 @@
+import System = require('systemjs');
+
+System.config({
+  ...
+});
+
+System.import(...);
+
 document.getElementById('MolSubstance').style.textalign="center";
 const MolSubstance = document.getElementById('MolSubstance');
 const VolSubstance = document.getElementById('VolSubstance');
