@@ -23,13 +23,13 @@ inputvalue = Number(MolSubstance.value);
 
 VolVal = inputvalue*22.4;
 
-VolSubstance.value = VolVal.toFixed(2);
+VolSubstance.value = VolVal.toFixed(2)+"L";
 MassVal = inputvalue*55.85;
 
-MassSubstance.value = MassVal;
+MassSubstance.value = MassVal+"g";
 ParVal = inputvalue*6.02e23;
 
-PartSubstance.value = ParVal.toFixed(2);
+PartSubstance.value = ParVal.toFixed(2)+"particles";
 },100);
 });
 
@@ -40,13 +40,13 @@ inputvalue = Number(VolSubstance.value);
 
 MolVal = inputvalue/22.4;
 
-MolSubstance.value = MolVal.toFixed(2);
+MolSubstance.value = MolVal.toFixed(2)+"mol";
 MassVal = MolVal*55.85;
 
-MassSubstance.value = MassVal.toFixed(2);
+MassSubstance.value = MassVal.toFixed(2)+"g";
 ParVal = MolVal*6.02e23;
 
-PartSubstance.value = ParVal.toFixed(2);
+PartSubstance.value = ParVal.toFixed(2)+"particles";
 },100);
 });
 
@@ -58,13 +58,13 @@ inputvalue = Number(MassSubstance.value);
 
 MolVal = inputvalue/55.85;
 
-MolSubstance.value = MolVal.toFixed(2);
+MolSubstance.value = MolVal.toFixed(2)+"mol";
 VolVal = MolVal*22.4;
 
-VolSubstance.value = VolVal.toFixed(2);
+VolSubstance.value = VolVal.toFixed(2)+"L";
 ParVal = MolVal*6.02e23;
 
-PartSubstance.value = ParVal.toFixed(2);
+PartSubstance.value = ParVal.toFixed(2)+"particles";
 },100);
 });
 
@@ -75,12 +75,12 @@ inputvalue = Number(PartSubstance.value);
 
 MolVal = inputvalue/6.02e23;
 
-MolSubstance.value = MolVal.toFixed(2);
+MolSubstance.value = MolVal.toFixed(2)+"mol";
 VolVal = MolVal*22.4;
 
-VolSubstance.value = VolVal.toFixed(2);
+VolSubstance.value = VolVal.toFixed(2)+"L";
 MassVal = MolVal*55.85;
 
-MassSubstance.value = MassVal.toFixed(2);
+MassSubstance.value = MassVal.toFixed(2)+"g";
 },100);
 });
