@@ -1,7 +1,8 @@
 document.getElementById('MolSubstance').style.textalign="center";
 const MolSubstance = document.querySelector('#MolSubstance');
 const VolSubstance = document.querySelector('#VolSubstance');
-const MassSubstance = document.querySelector('MassSubstance');
+const MassSubstance = document.querySelector('#MassSubstance');
+const MassSubstance = document.querySelector('#PartSubstance');
 let inputvalue = 0;
 let VolVal = 0;
 let MassVal = 0;
