@@ -7,24 +7,24 @@ h1 {
 #MolSubstance
 {
   position:absolute;
-  left:30px;
-  bottom: 290px;
+  left:60px;
+  bottom: 295px;
   height:20px;
   font-size:14pt;
 }
 #VolSubstance
 {
   position:absolute;
-  bottom: 267px;
-  left:30px;
+  bottom: 270px;
+  left:60px;
   height:20px;
   font-size:14pt;
 }
 #MassSubstance
 {
   position:absolute;
-  bottom: 247px;
-  left:30px;
+  bottom: 245px;
+  left:60px;
   height:20px;
   font-size:14pt;
 }
