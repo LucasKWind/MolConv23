@@ -9,7 +9,7 @@ h1 {
   position:absolute;
     bottom:0px;
   margin-left:50px;
-  margin-bottom: 290px;
+ bottom: 290px;
   height:20px;
     font-size:14pt;
 }
@@ -17,7 +17,7 @@ h1 {
 {
   position:absolute;
     bottom:0px;
-  margin-bottom: 290px;
+bottom: 290px;
   margin-left:250px;
   height:20px;
     font-size:14pt;
@@ -26,7 +26,7 @@ h1 {
 {
   position:absolute;
     bottom:20px;
-    margin-bottom: 290px;
+  bottom: 290px;
   margin-left:500px;
   height:20px;
     font-size:14pt;
