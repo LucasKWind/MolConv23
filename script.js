@@ -19,7 +19,7 @@ let timer3;
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
 timer = setTimeout(() => {
- removeinteg = MolSubstance.value.replace(/[^\d.-]/g, '');
+ removeinteg = MolSubstance.value.replace(/\D/g, '');
 inputvalue = Number(removeinteg);
 
 VolVal = inputvalue*22.4;
@@ -37,7 +37,7 @@ PartSubstance.value = ParVal.toFixed(2)+"particles";
 VolSubstance.addEventListener("keyup",function(r){
 clearTimeout(timer1);
 timer1 = setTimeout(() => {
- removeinteg = VolSubstance.value.replace(/[^\d.-]/g, '');
+ removeinteg = VolSubstance.value.replace(/\D/g, '');
 inputvalue = Number(removeinteg);
 
 MolVal = inputvalue/22.4;
@@ -56,7 +56,7 @@ PartSubstance.value = ParVal.toFixed(2)+"particles";
 MassSubstance.addEventListener("keyup",function(t){
 clearTimeout(timer2);
 timer2 = setTimeout(() => {
- removeinteg = MassSubstance.value.replace(/[^\d.-]/g, '');
+ removeinteg = MassSubstance.value.replace(/\D/g, '');
 inputvalue = Number(removeinteg);
 
 MolVal = inputvalue/55.85;
@@ -74,7 +74,7 @@ PartSubstance.value = ParVal.toFixed(2)+"particles";
 PartSubstance.addEventListener("keyup",function(y){
 clearTimeout(timer3);
 timer3 = setTimeout(() => {
- removeinteg = PartSubstance.value.replace(/[^\d.-]/g, '');
+ removeinteg = PartSubstance.value.replace(/\D/g, '');
 inputvalue = Number(removeinteg);
 
 MolVal = inputvalue/6.02e23;
