@@ -1,9 +1,8 @@
 #MolSubstance
 {
-    height:20px;
+    height:16px;
     font-size:14pt;
-    text-align: center;
-    text-align: bottom;
+    vertical-align: bottom;
 }
 
 #center
