@@ -8,14 +8,14 @@ h1 {
 {
   position:absolute;
   left:160px;
-  bottom: 315px;
+  bottom: 300px;
   height:20px;
   font-size:14pt;
 }
 #VolSubstance
 {
   position:absolute;
-  bottom: 290px;
+  bottom: 275px;
   left:160px;
   height:20px;
   font-size:14pt;
@@ -23,7 +23,7 @@ h1 {
 #MassSubstance
 {
   position:absolute;
-  bottom: 265px;
+  bottom: 250px;
   left:160px;
   height:20px;
   font-size:14pt;
@@ -31,7 +31,7 @@ h1 {
 #PartSubstance
 {
   position:absolute;
-  bottom: 240px;
+  bottom: 225px;
   left:160px;
   height:20px;
   font-size:14pt;
