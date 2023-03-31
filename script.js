@@ -5,6 +5,7 @@ System.config({
 });
 
 System.import(...);
+ 
 
 document.getElementById('MolSubstance').style.textalign="center";
 const MolSubstance = document.getElementById('MolSubstance');
