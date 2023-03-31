@@ -35,7 +35,22 @@ h1 {
   height:20px;
     font-size:14pt;
 }
-
+#VolSubstance
+{
+  position:absolute;
+    bottom:0px;
+  left:250px;
+  height:20px;
+    font-size:14pt;
+}
+#MassSubstance
+{
+  position:absolute;
+    bottom:0px;
+  left:250px;
+  height:20px;
+    font-size:14pt;
+}
 #center
 {
  text-align: center;   
