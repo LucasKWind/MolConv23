@@ -13,13 +13,13 @@ let timer;
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
 timer = setTimeout(() => {
-inputvalue = +MolSubstance.innerHTML
-VolVal = inputvalue*22.4
-VolSubstance.innerHTML = VolVal
-MassVal = inputvalue*55.85
-MassSubstance.innerhtml = MassVal
-ParVal = inputvalue*6.02e23
-PartSubstance.innerhtml = ParVal
- alert('Converted values!')
+inputvalue = +MolSubstance.innerHTML;
+VolVal = inputvalue*22.4;
+VolSubstance.innerHTML = VolVal;
+MassVal = inputvalue*55.85;
+MassSubstance.innerhtml = MassVal;
+ParVal = inputvalue*6.02e23;
+PartSubstance.innerhtml = ParVal;
+ alert('Converted values!');
 },1000);
 });
