@@ -1,26 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 10px;
-  
-background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 76%, #d5d0e5 3%);
 
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Shadows Into Light', cursive;
-}
-
-#start{
-  text-align: center;
-}
 
 h1 {
   text-align: center;
