@@ -16,17 +16,17 @@ let timer;
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
 timer = setTimeout(() => {
-inputvalue = Number(MolSubstance.innerHTML);
+inputvalue = Number(MolSubstance.value);
 
 VolVal = inputvalue*22.4;
 
-VolSubstance.innerHTML = VolVal;
+VolSubstance.value = VolVal;
 MassVal = inputvalue*55.85;
 
-MassSubstance.innerhtml = MassVal;
+MassSubstance.value = MassVal;
 ParVal = inputvalue*6.02e23;
 
-PartSubstance.innerhtml = ParVal;
+PartSubstance.value = ParVal;
  alert('Converted values!');
 },1000);
 });
