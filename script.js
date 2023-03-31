@@ -19,7 +19,7 @@ let timer3;
 MolSubstance.addEventListener("keyup",function(e){
 clearTimeout(timer);
 timer = setTimeout(() => {
-inputvalue = MolSubstance.value.replace(/\D/g, '');
+inputvalue = MolSubstance.value.replace(/[^0-9.]/g, '');
 
 VolVal = inputvalue*22.4;
 
@@ -37,7 +37,7 @@ VolSubstance.addEventListener("keyup",function(r){
 clearTimeout(timer1);
 timer1 = setTimeout(() => {
 
-inputvalue =  VolSubstance.value.replace(/\D/g, '');
+inputvalue =  VolSubstance.value.replace(/[^0-9.]/g, '');
 
 MolVal = inputvalue/22.4;
 
@@ -56,7 +56,7 @@ MassSubstance.addEventListener("keyup",function(t){
 clearTimeout(timer2);
 timer2 = setTimeout(() => {
 
-inputvalue =  MassSubstance.value.replace(/\D/g, '');
+inputvalue =  MassSubstance.value.replace(/[^0-9.]/g, '');
 
 MolVal = inputvalue/55.85;
 
