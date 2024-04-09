@@ -6,15 +6,15 @@ h1 {
 }
 #MolSubstance
 {
-  position:static;
-  left:0px;
+  position:fixed;
+  left:300px;
   bottom: 0px;
   height:20px;
   font-size:14pt;
 }
 #VolSubstance
 {
-  position:static;
+  position:fixed;
   bottom: 275px;
   left:160px;
   height:20px;
@@ -22,7 +22,7 @@ h1 {
 }
 #MassSubstance
 {
-  position:static;
+  position:fixed;
   bottom: 250px;
   left:160px;
   height:20px;
@@ -30,7 +30,7 @@ h1 {
 }
 #PartSubstance
 {
-  position:static;
+  position:fixed;
   bottom: 225px;
   left:160px;
   height:20px;
